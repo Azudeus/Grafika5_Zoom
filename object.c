@@ -263,10 +263,10 @@ Object makeMeriam(int xinitA, int yinitA) {
 		O.P[i].y = y[i];
 	}
 
-	int xL[2] = {0, 0};
-	int yL[2] = {0, 0};
-	int rL[2] = {69, 117};
-	for(int i = 0;i < 2;i++) {
+	int xL[1] = {0};
+	int yL[1] = {0};
+	int rL[1] = {117};
+	for(int i = 0;i < 1;i++) {
 		O.L[i].x = xL[i];
 		O.L[i].y = yL[i];
 		O.L[i].r = rL[i];
@@ -275,7 +275,7 @@ Object makeMeriam(int xinitA, int yinitA) {
 	O.pointInit.x = xinitA;
 	O.pointInit.y = yinitA;
 	O.size = 4;
-	O.nlingkaran = 2;
+	O.nlingkaran = 1;
 	O.lingkaranPenuh = 1;
 
 	return O;
